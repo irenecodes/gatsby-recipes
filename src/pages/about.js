@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from "../components/Layout.component"
-
+import * as aboutStyles from "../examples/about.module.css"
 const about = () => {
   return (
     <Layout>
-      <div className="about-heading">
-        <h1>About heading</h1>
+      <div className={aboutStyles.page}>
+        <p>About heading</p>
       </div>
       About Page
     </Layout>
