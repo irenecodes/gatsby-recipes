@@ -3,7 +3,16 @@ import Layout from "../components/Layout.component"
 
 // would need to rename 404 to Error
 const Error = () => {
-  return <Layout>Error Page</Layout>
+  return (
+    <Layout>
+      <main className="error-page">
+        <section>
+          <h1>404</h1>
+          <h3>Page not found</h3>
+        </section>
+      </main>
+    </Layout>
+  )
 }
 
 export default Error
