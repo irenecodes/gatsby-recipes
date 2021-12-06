@@ -16,24 +16,35 @@ const Navbar = () => {
           </button>
         </div>
         <div className={show ? "nav-links show-links" : "nav-links"}>
-          <Link to="/" className="nav-link" activeClassName="active-link">
+          <Link
+            to="/"
+            className="nav-link"
+            activeClassName="active-link"
+            onClick={() => setShow(false)}
+          >
             Home
           </Link>
           <Link
             to="/recipes"
             className="nav-link"
             activeClassName="active-link"
+            onClick={() => setShow(false)}
           >
             Recipes
           </Link>
-          <Link to="/tags" className="nav-link" activeClassName="active-link">
+          <Link
+            to="/tags"
+            className="nav-link"
+            activeClassName="active-link"
+            onClick={() => setShow(false)}
+          >
             Tags
           </Link>
           <Link to="/about" className="nav-link" activeClassName="active-link">
             About
           </Link>
           <div className="nav-link contact-link">
-            <Link to="/contact" className="btn">
+            <Link to="/contact" className="btn" onClick={() => setShow(false)}>
               Contact
             </Link>
           </div>
