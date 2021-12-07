@@ -26,3 +26,5 @@ export default function Home() {
     </Layout>
   )
 }
+
+// TODO: left off at 5:29:27 Setup Contentful Account https://www.youtube.com/watch?v=JlxXHlygVLM
