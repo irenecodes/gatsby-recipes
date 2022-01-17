@@ -27,4 +27,4 @@ export default function Home() {
   )
 }
 
-// TODO: left off at 5:29:27 Setup Contentful Account https://www.youtube.com/watch?v=JlxXHlygVLM
+// TODO: left off at Connect Gatsby - Contentful 5:47:26 https://www.youtube.com/watch?v=JlxXHlygVLM

@@ -12,5 +12,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-//TODO: left off @ 1:54:18 footer section
